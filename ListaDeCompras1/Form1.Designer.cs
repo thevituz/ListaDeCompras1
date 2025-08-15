@@ -32,7 +32,7 @@
             this.pibLogo = new System.Windows.Forms.PictureBox();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.lblNomeDoProduto = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txbProduto = new System.Windows.Forms.TextBox();
             this.btnAdicionar = new System.Windows.Forms.Button();
             this.libCompras = new System.Windows.Forms.ListBox();
             this.btnExcluir = new System.Windows.Forms.Button();
@@ -69,12 +69,13 @@
             this.lblNomeDoProduto.TabIndex = 2;
             this.lblNomeDoProduto.Text = "Nome Do Produto:";
             // 
-            // textBox1
+            // txbProduto
             // 
-            this.textBox1.Location = new System.Drawing.Point(144, 184);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 24);
-            this.textBox1.TabIndex = 3;
+            this.txbProduto.Location = new System.Drawing.Point(144, 184);
+            this.txbProduto.Name = "txbProduto";
+            this.txbProduto.Size = new System.Drawing.Size(100, 24);
+            this.txbProduto.TabIndex = 3;
+            this.txbProduto.Text = " ";
             // 
             // btnAdicionar
             // 
@@ -122,7 +123,7 @@
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.libCompras);
             this.Controls.Add(this.btnAdicionar);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txbProduto);
             this.Controls.Add(this.lblNomeDoProduto);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.pibLogo);
@@ -146,7 +147,7 @@
         private System.Windows.Forms.PictureBox pibLogo;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Label lblNomeDoProduto;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txbProduto;
         private System.Windows.Forms.Button btnAdicionar;
         private System.Windows.Forms.ListBox libCompras;
         private System.Windows.Forms.Button btnExcluir;
